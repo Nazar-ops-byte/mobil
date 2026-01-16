@@ -75,7 +75,7 @@ flutter run
 # YouTube Tanıtım Videosu
 
 🎥 Projenin tanıtım videosu:
-Buraya YouTube video linki eklenecektir.
+(https://youtu.be/z5UYMnQgvSg?si=TzeD0dUmVMBr9PYy)
 
 # Geliştirici
 
