@@ -1,16 +1,84 @@
-# overthink_dump
+# Overthink Dump 🧠📓
 
-A new Flutter project.
+Overthink Dump, kullanıcıların günlük düşüncelerini yazı ve fotoğraf desteğiyle kaydedebildiği, kişisel farkındalık ve zihinsel rahatlama odaklı bir mobil uygulamadır. Uygulama, kullanıcıların aşırı düşünme (overthinking) durumlarını yönetmelerine yardımcı olmayı amaçlar.
 
-## Getting Started
+# Projenin Amacı
 
-This project is a starting point for a Flutter application.
+Bu projenin temel amacı, kullanıcıların gün içerisinde biriken düşüncelerini güvenli bir ortamda dışa vurabilmelerini, duygusal farkındalık kazanmalarını ve kişisel verilerini gizli ve kalıcı şekilde saklamalarını sağlayan bir mobil uygulama geliştirmektir.
 
-A few resources to get you started if this is your first Flutter project:
+# Hedef Kitle
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Günlük tutmayı seven kullanıcılar  
+- Aşırı düşünme (overthink) problemi yaşayan bireyler  
+- Dijital ortamda kişisel notlarını saklamak isteyen kişiler  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Uygulama Özellikleri
+
+- 📝 Düşünce (Dump) ekleme  
+- 📸 Dump’a kamera veya galeriden fotoğraf ekleme  
+- 🙂 Duygu seçimi (emoji destekli)  
+- 🔒 Dump kilitleme (PIN ile koruma)  
+- 🗑️ Dump silme  
+- 📂 Dump listeleme  
+- 📄 Dump detay görüntüleme  
+- 💾 Yerel veritabanında kalıcı veri saklama  
+- 🌙 Karanlık tema (Dark Mode)  
+
+# Kullanılan Teknolojiler
+
+- Flutter  
+- Dart  
+- Hive (Local Database)  
+- image_picker  
+- path_provider  
+
+# Uygulama Ekranları
+
+- Ana Liste Ekranı (Dump List Screen)  
+- Dump Ekleme Ekranı  
+- Dump Detay Ekranı  
+- PIN Oluşturma / Kilit Açma Ekranı  
+- Profil ve İçgörüler Ekranı  
+
+# Veritabanı Yapısı
+
+Uygulamada yerel veri saklama için Hive kullanılmıştır. Her dump için aşağıdaki bilgiler tutulmaktadır:
+
+- id  
+- text  
+- tag  
+- mood  
+- createdAt  
+- isLocked  
+- imagePath  
+
+# Projenin Çalışma Mantığı
+
+Kullanıcı dump eklediğinde veriler Hive veritabanına kaydedilir. Eklenen dump’lar anında liste ekranında görüntülenir. Kilitli dump’lara erişim PIN doğrulaması ile sağlanır. Fotoğraflar uygulama dizinine kaydedilir ve dosya yolu bilgisi veritabanında tutulur.
+
+# Kurulum ve Çalıştırma
+
+Projeyi klonlayın:
+
+---bash
+git clone https://github.com/kullaniciadi/overthink_dump.git
+
+## Gerekli paketleri yükleyin:
+
+flutter pub get
+
+
+## Uygulamayı çalıştırın:
+
+flutter run
+
+# YouTube Tanıtım Videosu
+
+🎥 Projenin tanıtım videosu:
+Buraya YouTube video linki eklenecektir.
+
+# Geliştirici
+
+Nazar Baştug
+Yönetim Bilişim Sistemleri (YBS)
+Flutter Mobil Uygulama Geliştirme – Final Projesi
