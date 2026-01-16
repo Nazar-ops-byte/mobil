@@ -80,5 +80,7 @@ Buraya YouTube video linki eklenecektir.
 # Geliştirici
 
 Nazar Baştug
+
 Yönetim Bilişim Sistemleri (YBS)
+
 Flutter Mobil Uygulama Geliştirme – Final Projesi
